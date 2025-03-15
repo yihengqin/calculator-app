@@ -18,7 +18,7 @@ body {
 }
 
 #display {
-  width: 100%;
+  width: calc(100% - 30px);
   height: 60px;
   text-align: right;
   padding: 15px;
@@ -26,8 +26,9 @@ body {
   border: 2px solid #ff9a9e;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 25px;
+  margin: 0 15px 25px 15px;
   color: #ff6f61;
+  box-sizing: border-box;
 }
 
 .buttons {
